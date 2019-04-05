@@ -1,0 +1,18 @@
+			_______________________________
+
+			Instalacja biblioteki INTEL TBB
+			_______________________________
+
+Biblioteka w wersji na licencji Apache znajduje się w oficjalnym
+repozytorium pod linkiem https://github.com/01org/tbb/releases
+
+Przykłady oraz zadania były pisane w zgodności z werją oznaczoną
+jako tbb2019_20181203oss dlatego zalecam instalację najnowszej 
+wersji. W głównym katalogu znajduje się plik index.html z instrukcjami
+instalacji. W razie problemów polecam YouTube. Flagi potrzebne do kompilacji
+gotowych projektów można znaleść w dowolnym z załączonych plików CMakeLists.txt
+
+Pliki CMakeLists.txt zakładają, że elementy biblioteki znajdują się
+w domyślnych katalogach. W razie czego proszę dopisać w środku CMakeLists.txt
+include_directories(folder/glowny/biblioteki/include)	oraz
+link_libraries(folder/glowny/biblioteki/lib)
